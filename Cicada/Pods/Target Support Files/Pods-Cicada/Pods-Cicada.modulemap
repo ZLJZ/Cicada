@@ -1,0 +1,6 @@
+framework module Pods_Cicada {
+  umbrella header "Pods-Cicada-umbrella.h"
+
+  export *
+  module * { export * }
+}

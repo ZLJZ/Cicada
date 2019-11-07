@@ -1,0 +1,14 @@
+use_frameworks!
+target 'Cicada' do
+pod 'pop', '~> 1.0.9'
+pod 'Masonry', '~> 1.0.2'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'Alamofire', '~> 4.2.0'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'MJExtension', '~> 3.0.13'
+pod 'Charts', '~> 3.0.1'
+pod 'Reachability', '~> 3.2'
+pod 'MJExtension', '~> 3.0.13'
+pod 'FSCalendar', '~> 2.7.9'
+pod 'SDWebImage', '~> 4.4.6'
+end

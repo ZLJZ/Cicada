@@ -1,0 +1,22 @@
+
+//
+//  Cicada.pch
+//  Cicada
+//
+//  Created by 张琦 on 2017/3/7.
+//  Copyright © 2017年 com. All rights reserved.
+//
+
+#ifndef Cicada_pch
+#define Cicada_pch
+
+#ifdef __OBJC__
+
+#import "HeadDefine.h"
+#import "MacroDefine.h"
+
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Cicada_pch */
