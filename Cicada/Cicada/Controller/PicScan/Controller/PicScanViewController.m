@@ -77,7 +77,7 @@ static inline CGRect transformRect(CGRect frame) {
     
     for (NSInteger i = 0; i < 5; i ++ ) {
         PicScanModel *model = [[PicScanModel alloc]init];
-        model.picName = [NSString stringWithFormat:@"%ld.JPG",i + 1];
+        model.picName = [NSString stringWithFormat:@"%ld.jpg",i + 1];
         model.level = [NSString stringWithFormat:@"VIP%ld",i + 1];
         if (i == 0 || i == 3) {
             model.isSubscribe = @"1";
