@@ -167,6 +167,7 @@
 		3DD83874213E5EEA006FFD63 /* ZLBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD83873213E5EEA006FFD63 /* ZLBarChartView.swift */; };
 		3DD83876213E5F10006FFD63 /* ZLBarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD83875213E5F10006FFD63 /* ZLBarChartRenderer.swift */; };
 		3DD838792142560D006FFD63 /* MultiTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD838782142560D006FFD63 /* MultiTabView.m */; };
+		3DD85DE7237C01CD00E3A104 /* LayerFightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD85DE6237C01CD00E3A104 /* LayerFightingViewController.m */; };
 		3DDD86BC20CF945F002FFC44 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD86BB20CF945F002FFC44 /* AAViewController.m */; };
 		3DE649B5215B9A4C00EA4989 /* FinancialCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE649B4215B9A4C00EA4989 /* FinancialCalendarViewController.m */; };
 		3DE8D1D81F7E16E30007D076 /* MoveCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8D1D71F7E16E30007D076 /* MoveCellViewController.m */; };
@@ -437,6 +438,8 @@
 		3DD83875213E5F10006FFD63 /* ZLBarChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLBarChartRenderer.swift; sourceTree = "<group>"; };
 		3DD838772142560D006FFD63 /* MultiTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTabView.h; sourceTree = "<group>"; };
 		3DD838782142560D006FFD63 /* MultiTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTabView.m; sourceTree = "<group>"; };
+		3DD85DE5237C01CD00E3A104 /* LayerFightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerFightingViewController.h; sourceTree = "<group>"; };
+		3DD85DE6237C01CD00E3A104 /* LayerFightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerFightingViewController.m; sourceTree = "<group>"; };
 		3DDD86BA20CF945F002FFC44 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
 		3DDD86BB20CF945F002FFC44 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		3DE649B3215B9A4C00EA4989 /* FinancialCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialCalendarViewController.h; sourceTree = "<group>"; };
@@ -1169,6 +1172,7 @@
 		3D8B8D571E6F9124009957B2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3DD85DE3237C018300E3A104 /* LayerFighting */,
 				3DE649B1215B9A1D00EA4989 /* FinancialCalendar */,
 				3D42FBD11F8B3D8C007E9F56 /* ColorGradient */,
 				3DE8D1D31F7E16A90007D076 /* TableView */,
@@ -1279,6 +1283,23 @@
 				3DC8F076216AE5DB0021A276 /* FinancialCalendarCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3DD85DE3237C018300E3A104 /* LayerFighting */ = {
+			isa = PBXGroup;
+			children = (
+				3DD85DE4237C01A100E3A104 /* Controller */,
+			);
+			path = LayerFighting;
+			sourceTree = "<group>";
+		};
+		3DD85DE4237C01A100E3A104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DD85DE5237C01CD00E3A104 /* LayerFightingViewController.h */,
+				3DD85DE6237C01CD00E3A104 /* LayerFightingViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		3DE649B1215B9A1D00EA4989 /* FinancialCalendar */ = {
@@ -1659,6 +1680,7 @@
 				3D6DC1901ECC87690073B613 /* CicadaViewController.swift in Sources */,
 				3D82DCDF1EE7EBF700739F59 /* NSObject+Property.m in Sources */,
 				3D2EC9B61EB1C2E300DF1737 /* TextFieldPracticeViewController.m in Sources */,
+				3DD85DE7237C01CD00E3A104 /* LayerFightingViewController.m in Sources */,
 				3D7C8D5E205A550B004C3A64 /* BalloonMarker.swift in Sources */,
 				3D6DC19C1ECC926D0073B613 /* UIView+frame.m in Sources */,
 				3D5C6CD61EC8629200D27DF3 /* CollectionPratice.swift in Sources */,
