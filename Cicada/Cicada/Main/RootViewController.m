@@ -103,6 +103,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    [self.navigationController pushViewController:[NSClassFromString(self.titleArr[indexPath.row]) new] animated:YES];
+//    return;
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:[ProgressBarViewController new] animated:YES];
