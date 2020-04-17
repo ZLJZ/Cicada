@@ -26,6 +26,7 @@
 #import "ZLChartViewController.h"
 #import "FinancialCalendarViewController.h"
 #import "LayerFightingViewController.h"
+#import "DouYinViewController.h"
 
 
 
@@ -46,7 +47,7 @@
     
     
     _titleArr = [[NSMutableArray alloc]init];
-    _titleArr = @[@"ProgressBar",@"PopAnimation",@"TakePhoto",@"GCD",@"PicScan",@"OperationTag",@"TextField",@"CicadaSwift",@"IJKLive",@"IJKCapture",@"TestRuntime",@"ZLChart",@"TestPieChart",@"TestRadarChart",@"TestLineChart",@"MoveCell",@"ColorGradient",@"FinancialCalendar",@"LayerFightingViewController"].mutableCopy;
+    _titleArr = @[@"ProgressBar",@"PopAnimation",@"TakePhoto",@"GCD",@"PicScan",@"OperationTag",@"TextField",@"CicadaSwift",@"IJKLive",@"IJKCapture",@"TestRuntime",@"ZLChart",@"TestPieChart",@"TestRadarChart",@"TestLineChart",@"MoveCell",@"ColorGradient",@"FinancialCalendar",@"LayerFightingViewController",@"DouYin"].mutableCopy;
     [self createTableView];
 }
 
@@ -162,6 +163,11 @@
             break;
         case 18:
             [self.navigationController pushViewController:[LayerFightingViewController new] animated:YES];
+            break;
+        case 19:
+            [self.navigationController pushViewController:[DouYinViewController new] animated:YES];
+            break;
+            
         default:
             break;
     }

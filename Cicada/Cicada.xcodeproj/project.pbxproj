@@ -133,6 +133,8 @@
 		3D82DCE41EE912BD00739F59 /* TestRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82DCE31EE912BD00739F59 /* TestRuntimeViewController.m */; };
 		3D82DCEF1EEE21AF00739F59 /* TestPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82DCEE1EEE21AF00739F59 /* TestPieChartViewController.m */; };
 		3D82DCF51EEF784C00739F59 /* TestRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82DCF41EEF784C00739F59 /* TestRadarViewController.m */; };
+		3D8725D2244950DB009718DF /* DouYinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8725D1244950DB009718DF /* DouYinViewController.m */; };
+		3D8725D524495104009718DF /* LikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8725D324495104009718DF /* LikeView.m */; };
 		3D8B8D561E6E9CF1009957B2 /* ToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8D551E6E9CF1009957B2 /* ToolHelper.m */; };
 		3D8B8D5F1E6F9186009957B2 /* ProgressBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8D5E1E6F9186009957B2 /* ProgressBarViewController.m */; };
 		3D8B8D631E6F959B009957B2 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8D621E6F959B009957B2 /* CircleProgressBarView.m */; };
@@ -390,6 +392,10 @@
 		3D82DCEE1EEE21AF00739F59 /* TestPieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPieChartViewController.m; sourceTree = "<group>"; };
 		3D82DCF31EEF784C00739F59 /* TestRadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRadarViewController.h; sourceTree = "<group>"; };
 		3D82DCF41EEF784C00739F59 /* TestRadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRadarViewController.m; sourceTree = "<group>"; };
+		3D8725D0244950DB009718DF /* DouYinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouYinViewController.h; sourceTree = "<group>"; };
+		3D8725D1244950DB009718DF /* DouYinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouYinViewController.m; sourceTree = "<group>"; };
+		3D8725D324495104009718DF /* LikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeView.m; sourceTree = "<group>"; };
+		3D8725D424495104009718DF /* LikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeView.h; sourceTree = "<group>"; };
 		3D8B8D541E6E9CF1009957B2 /* ToolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolHelper.h; sourceTree = "<group>"; };
 		3D8B8D551E6E9CF1009957B2 /* ToolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolHelper.m; sourceTree = "<group>"; };
 		3D8B8D5D1E6F9186009957B2 /* ProgressBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBarViewController.h; sourceTree = "<group>"; };
@@ -1144,6 +1150,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3D8725CD2449509A009718DF /* DouYin */ = {
+			isa = PBXGroup;
+			children = (
+				3D8725CF244950BC009718DF /* View */,
+				3D8725CE244950B2009718DF /* Controller */,
+			);
+			path = DouYin;
+			sourceTree = "<group>";
+		};
+		3D8725CE244950B2009718DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D8725D0244950DB009718DF /* DouYinViewController.h */,
+				3D8725D1244950DB009718DF /* DouYinViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D8725CF244950BC009718DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8725D424495104009718DF /* LikeView.h */,
+				3D8725D324495104009718DF /* LikeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3D8B8D531E6E9CD4009957B2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -1172,6 +1205,7 @@
 		3D8B8D571E6F9124009957B2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D8725CD2449509A009718DF /* DouYin */,
 				3DD85DE3237C018300E3A104 /* LayerFighting */,
 				3DE649B1215B9A1D00EA4989 /* FinancialCalendar */,
 				3D42FBD11F8B3D8C007E9F56 /* ColorGradient */,
@@ -1450,7 +1484,7 @@
 				TargetAttributes = {
 					3D7DA4D41E6E8E73005FCB1D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = Y4WFRUDV7P;
+						DevelopmentTeam = A6H2H8LCPE;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -1658,11 +1692,13 @@
 				3DA7BAE91E978CB200648EBD /* DotView.m in Sources */,
 				3DF35DB52091C42400BC8308 /* ZLChartsFillFormatter.m in Sources */,
 				3D6DC19D1ECC926D0073B613 /* UIView+Shadow.m in Sources */,
+				3D8725D524495104009718DF /* LikeView.m in Sources */,
 				3D25E51D1EA4B4B000E963B4 /* UINavigationController+WXLNavigationController.m in Sources */,
 				3D25E5121E9DF99500E963B4 /* AllAppsHeaderView.m in Sources */,
 				3D158FE31EAAF72000DBFDBF /* BaseViewController.m in Sources */,
 				3D7C8D5A205A43CD004C3A64 /* CicadaMarkerView.m in Sources */,
 				3D1792C71EDE9D2E002D9D45 /* TestCollectionViewController.swift in Sources */,
+				3D8725D2244950DB009718DF /* DouYinViewController.m in Sources */,
 				3D82DCE41EE912BD00739F59 /* TestRuntimeViewController.m in Sources */,
 				3DEBCF4A22CC551100F40748 /* NSString+Calculate.m in Sources */,
 				3D82DCDC1EE7C8FF00739F59 /* UIImage+Image.m in Sources */,
@@ -1886,7 +1922,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = Y4WFRUDV7P;
+				DEVELOPMENT_TEAM = A6H2H8LCPE;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1912,7 +1948,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = Y4WFRUDV7P;
+				DEVELOPMENT_TEAM = A6H2H8LCPE;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
